@@ -1,5 +1,13 @@
+body * {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #0099ff;
+	padding: 0;
+	margin: 0;
+	padding-top: 40px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .business-logo {
@@ -7,41 +15,108 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
+	margin-top: 30px;
+	width: auto;
 }
+
+
+/************ form ***************/
+
 
 .signup-form {
 	background-color: white;
-	width: 320px;
+	width: 400px;
+	height: 450px;
 	padding-left: 40px;
 	padding-right: 40px;
 	margin: 0 auto;
 	margin-top: 50px;
+	border-radius: 3px;
 	
 }
-.fieldset {
-	border:0 none;
-	margin: 0 auto;
-}
-
 
 h1 {
 	text-align: center;
-	padding-top: 40px;
+	padding: 20px;
 }
 
 #email, #password{
-	width: 303px;
+	width: 300px;
 	border: 2px solid #dddddd;
 	padding: 15px;
 	display: block;
 }
 
-.submit {
-	width: 330px;
+input[type="email"], input[type="password"] {
+	background: #fcfcfc;
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+	font-size: 16px;
+	text-align: left;
+	border: 2px solid #e7e7e7;
+	margin: 20px auto;
+
+}
+
+input[type="email"]:focus, input[type="password"]:focus, button[type="submit"]:focus {
+	border-color: #e7e7e7;
+
+}
+
+button[type="submit"]{
+	width: 300px;
 	height: 55px;
 	background-color: #00cc66;
 	color: white;
-	border: 2px solid #dddddd;
+	border: 2px solid #f2f2f2;
 	padding: 15px;
+	font-size: 22px;
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	border-radius: 3px;
+	margin: 0 auto;
+
+}
+
+button:hover {
+	background-color: #006600;
+}
+
+.signup-form p {
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	margin-top: 10px;
+
+}
+
+.signup-form a {
+	color: #cccccc;
+}
+
+.signup-form a:hover {
+	color: #8c8c8c;
+}
+/*********  footer  **************/
+
+.footer {
+	color: white;
+	margin: 20px auto;
+	text-align: center;
+	border: 0;
+	padding: 0;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover {
+	color: #ffff99;
+}
+
+.footer p {
+	margin-bottom: 40px;
 }

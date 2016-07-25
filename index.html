@@ -5,24 +5,27 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Analog Sea sign up</title>
 	<link rel="stylesheet" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
 		<img src="logo.png" alt="Analog Sea logo" class="business-logo"/>
 	</header>
 	
-	<section>
-		<form class="signup-form" action="/signup" method="post">
-			<h1>Sign Up</h1>
-				<label for="email">Email</label>
-				<input type="email" name="email" id="email" placeholder="foo@bar.com" required/>
-				<label for="password">Password</label><input type="password" name="password" id="password" placeholder="1234passw0rd" label="false" required/>
+	<form class="signup-form" action="/signup" method="post">
+		<h1>Sign Up</h1>
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" placeholder="foo@bar.com" required/>
+		<label for="password">Password</label><input type="password" name="password" id="password" placeholder="1234passw0rd" label="false" required/>
 
-			</fieldset>
+		<button type="submit">Sign up</button>
 
+		<p><a href="/forgot_password/new">Forgot password?</a></p>
+	</form>
 
-			<button type="submit" class="submit">Submit</button>
-			<p>Forgot password?</p>
-		</section>
-	</body>
-	</html>
+	<div class="footer">
+		<p>Already have an account? <a href="/login">Log in</a></p>
+	</div>
+
+</body>
+</html>
