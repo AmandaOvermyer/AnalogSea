@@ -1,0 +1,47 @@
+body {
+	background-color: #0099ff;
+}
+
+.business-logo {
+	height: 35px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.signup-form {
+	background-color: white;
+	width: 320px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0 auto;
+	margin-top: 50px;
+	
+}
+.fieldset {
+	border:0 none;
+	margin: 0 auto;
+}
+
+
+h1 {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#email, #password{
+	width: 303px;
+	border: 2px solid #dddddd;
+	padding: 15px;
+	display: block;
+}
+
+.submit {
+	width: 330px;
+	height: 55px;
+	background-color: #00cc66;
+	color: white;
+	border: 2px solid #dddddd;
+	padding: 15px;
+}
